@@ -2,7 +2,7 @@
 // Injects: Track Browser + Campaign Browser into the main menu
 // Backend: change API_BASE to wherever you deploy the FastAPI server
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "postgres-production-761f.up.railway.app";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
