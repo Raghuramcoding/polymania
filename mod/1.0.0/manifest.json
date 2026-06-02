@@ -1,0 +1,10 @@
+{
+  "polymod": {
+    "name": "PolyTrack Exchange",
+    "id": "ptx-exchange",
+    "author": "you",
+    "targets": ["0.6.0"],
+    "main": "main.mod.js"
+  },
+  "dependencies": []
+}
