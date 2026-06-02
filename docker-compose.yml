@@ -1,0 +1,10 @@
+services:
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data
+    environment:
+      - DB_PATH=/data/polytrack.db
+    restart: unless-stopped
